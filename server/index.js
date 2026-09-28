@@ -11,14 +11,14 @@ dotenv.config()
 
 
 const app = express()
+app.set("trust proxy", 1) // Required for Render HTTPS cross-site cookies
 const PORT = process.env.PORT
 app.use(express.json())
 app.use(cookieParser());
 app.use(cors({
-    origin:"https://interview-mern-ai.vercel.app",
-    credentials:true,
+    origin: ["http://localhost:5173", "https://interview-mern-ai.vercel.app"],
+    credentials: true,
 }))
-
 
 // Routes 
 
