@@ -523,8 +523,6 @@ Full Stack Developer | Aspiring Software Engineer
 > _committed to continuous learning and innovation."_
 
 **⭐ If you found this project helpful or inspiring, please give it a star! ⭐**
-
-<br/>
 Made with ❤️ by **K Tirumala Achari**
 
 [![GitHub](https://img.shields.io/badge/GitHub-ktirumalaachari-blue?style=flat&logo=github)](https://github.com/ktirumalaachari)
