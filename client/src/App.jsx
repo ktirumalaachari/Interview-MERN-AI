@@ -10,7 +10,7 @@ import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
-export const ServerUrl = "https://interview-ai-backend-475w.onrender.com"
+export const ServerUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000"
 
 const App = () => {
 
